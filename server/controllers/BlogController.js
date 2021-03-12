@@ -2,7 +2,7 @@ const express = require('express')
 var BlogController = {}
 
 BlogController.index = (req, res) => {
-    res.send('<h1>Frumius</div>')
+    res.render('blog/index')
 }
 
 module.exports = BlogController

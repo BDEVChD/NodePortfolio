@@ -1,13 +1,19 @@
 @import "reset";
 @import "variables";
 @import "home"; 
+@import "grid"; 
+@import "about";
+@import "global";
 
 * {
     font-family: $mainFont;
     box-sizing: border-box;
 }
 
-
+body {
+    overflow: hidden; 
+    background: $bodyBG; 
+}
 
 header {
     background: $headerBG;

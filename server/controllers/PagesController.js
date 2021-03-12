@@ -6,7 +6,11 @@ pagesController.homePage = (req,res) => {
 }
 
 pagesController.aboutPage = (req,res) => {
-    res.send({"page": "About"})
+    res.render('pages/about')
+}
+
+pagesController.contact = (req,res) => {
+    res.render('pages/contact')
 }
 
 

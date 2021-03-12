@@ -1,10 +1,44 @@
 .content-area {
+
     .top-header {
+        display: flex; 
+      
+
         .top-left{
-            background: green; 
+            background: $topLeftBG;  
+            width: 50%; 
+            height: 100vh; 
+            min-height: 500px; 
+            vertical-align: top;
+            display: flex; 
+            align-items: center;
+            justify-content: center;
+            
+            h1 {
+                color: white; 
+                font-family: $displayFont; 
+                font-size: 3rem;
+            }
+          
         }
         .top-right{
-            background: red; 
+            background: $topRightBG; 
+            width: 50%; 
+            height: 100vh; 
+            vertical-align: top;
+            min-height: 500px; 
+            display: flex; 
+            align-items: center;
+            justify-content: center;
+            padding: 20px; 
+            img {
+                width: 100%; 
+                max-width: 473px; 
+            }
         }
     }
+}
+
+.content-area {
+    padding-top: 49px; 
 }

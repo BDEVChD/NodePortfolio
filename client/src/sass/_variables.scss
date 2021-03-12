@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:300,400,700');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One');
 
 $headerBG:#716EFF;
 $topLeftBG:#5157D0; 
 $topRightBG:#222564; 
-$blogBG: #F0EBFF; 
+$bodyBG: #F0EBFF; 
 $shadowColor: #E2DEFF;
 
 $mainFont: 'Roboto Condensed', sans-serif;
 $displayFont: 'Poiret One', cursive;
+
+$grid-columns: 12;
+$grid-max-width: 1200px; //breakpoint-small
+$breakpoint-xs: "only screen and (min-width: 0px)";
+$breakpoint-small: "only screen and (min-width: 451px)";
+$breakpoint-medium: "only screen and (min-width: 768px)";
+$breakpoint-large: "only screen and (min-width: 1008px)";
+$breakpoint-xl: "only screen and (min-width: 1300px)";

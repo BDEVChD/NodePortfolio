@@ -1,10 +1,41 @@
 const express = require('express')
+const { index } = require('./BlogController')
 var ProjectsController = {}
 
 
 
 ProjectsController.index = (req, res) => {
-    res.send('<h1>Gallery Page Wlcome</h1><div><img src="/img/pupps.jpg" /></div>')
+    res.render('projects/index')
+}
+
+
+ProjectsController.create = (req, res) => {
+    res.render('projects/index')
+}
+
+
+ProjectsController.store = (req, res) => {
+    res.render('projects/index')
+}
+
+
+ProjectsController.show = (req, res) => {
+    res.render('projects/index')
+}
+
+
+ProjectsController.edit= (req, res) => {
+    res.render('projects/index')
+}
+
+
+ProjectsController.update = (req, res) => {
+    res.render('projects/index')
+}
+
+
+ProjectsController.destroy = (req, res) => {
+    res.render('projects/index')
 }
 
 module.exports = ProjectsController
