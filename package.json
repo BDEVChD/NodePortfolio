@@ -1,0 +1,27 @@
+{
+  "name": "nodeport",
+  "version": "1.0.0",
+  "description": "myfirstproj",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "author": "blads",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "pug": "^3.0.2",
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-watch": "^4.3.11",
+    "node-sass": "^4.5.3",
+    "webpack": "^5.24.4"
+  }
+}
