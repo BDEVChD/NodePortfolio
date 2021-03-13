@@ -10,32 +10,38 @@ ProjectsController.index = (req, res) => {
 
 
 ProjectsController.create = (req, res) => {
-    res.render('projects/index')
+    res.render('projects/create')
 }
 
 
 ProjectsController.store = (req, res) => {
-    res.render('projects/index')
+    res.send({
+        saved: true
+    })
 }
 
 
 ProjectsController.show = (req, res) => {
-    res.render('projects/index')
+    res.render('projects/show')
 }
 
 
 ProjectsController.edit= (req, res) => {
-    res.render('projects/index')
+    res.render('projects/edit')
 }
 
 
 ProjectsController.update = (req, res) => {
-    res.render('projects/index')
+    res.send({
+        updated: true
+    })
 }
 
 
 ProjectsController.destroy = (req, res) => {
-    res.render('projects/index')
+    res.send({
+        deleted: true
+    })
 }
 
 module.exports = ProjectsController
