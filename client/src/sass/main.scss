@@ -4,7 +4,8 @@
 @import "grid"; 
 @import "about";
 @import "global";
-@import "projects/_index.scss";
+@import "projects/index";
+@import "projects/show";
 
 * {
     font-family: $mainFont;
@@ -12,7 +13,7 @@
 }
 
 body {
-    overflow: hidden; 
+
     background: $bodyBG; 
 }
 
