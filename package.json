@@ -26,5 +26,9 @@
     "gulp-watch": "^4.3.11",
     "node-sass": "^4.5.3",
     "webpack": "^5.24.4"
+  },
+
+  "engines": {
+    "node": "8.4.0"
   }
 }
