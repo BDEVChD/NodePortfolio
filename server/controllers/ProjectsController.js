@@ -5,7 +5,41 @@ var ProjectsController = {}
 
 
 ProjectsController.index = (req, res) => {
-    res.render('projects/index')
+    const projects = [{
+        title: 'dashboard',
+        tags: ['html', 'css', 'javascript', 'php'], 
+        date: '12/3/2017',
+        img: 'img/farm.png'
+    },
+    {
+        title: 'Home Slice',
+        tags: ['html', 'css', 'javascript', 'node'], 
+        date: '12/3/2017',
+        img: 'img/kaveth.png'
+    },
+    {
+        title: 'Verify Phone',
+        tags: ['html', 'css', 'javascript', 'php'], 
+        date: '12/3/2017',
+        img: 'img/dstld.png'
+    }, 
+    {
+        title: 'Call to Client',
+        tags: ['html', 'css', 'javascript', 'php'], 
+        date: '12/3/2017',
+        img: 'img/farm.png'
+    },
+    {
+        title: 'Moving Industries',
+        tags: ['html', 'css', 'javascript', 'php'], 
+        date: '12/3/2017',
+        img: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg'
+    }
+]
+
+    res.render('projects/index', {
+        projects: projects
+    })
 }
 
 

@@ -6,12 +6,19 @@ block title
 block content
     div(class="container projects-page index-page")
         h1 Show All Projects
+
         div(class="row")
-            div(class="col-md-4")
-                div(class="content-box")
-                    div(class="project-img", style="background: url(img/farm.png) no-repeat center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; width: 100%; min-height:200px;")
-                        div(class="inside")
-                            h4 Project Title 
-            
+            each project in projects
+                div(class="col-md-4")
+                    div(class="content-box")
+                        div(class="project-img", style="background: url(" + project.img 
+                        + ") no-repeat center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; width: 100%; min-height:200px;")
+                            div(class="inside")
+                                div                      
+                                    h4= project.title
+                                    div(class="tags")
+                                        each tag in project.tags
+                                            div(class="pill") ##{tag} 
+                                   
             
                     

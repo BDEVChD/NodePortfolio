@@ -49,3 +49,11 @@ header {
     } 
 }
 
+h1 {
+    display: block; 
+    flex-direction: column;
+    margin: 1rem 0; 
+    text-align: center;
+    font-family: $displayFont;
+    font-size: 3rem;
+}

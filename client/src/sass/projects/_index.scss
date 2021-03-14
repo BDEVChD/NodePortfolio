@@ -1,7 +1,55 @@
-.projects-page.index-page {
+
+.projects-page.index-page{
+    
     .project-img{
+        position:relative; 
+        overflow: hidden; 
+       
+        &:hover{
+            .inside{
+                transform: translate(0, 0); 
+              
+            }
+        }
         .inside{
-            background:rgba(200, 10, 200, .9);
+            background:rgba(34, 37, 100, .9);
+            background: linear-gradient(0deg, rgba(34, 37, 100, .9) 0%, rgba(190,177,224,1) 100%);
+            width: 100%; 
+            position: absolute; 
+            height: 100%; 
+            transform: translate(0, 100%); 
+            color: white; 
+            display: flex; 
+            align-items: center;
+            justify-content: center;
+            transition: all .6s ease-in-out;
+
+            h4 {
+                display: block; 
+                flex-direction: column;
+                margin-bottom: .8rem;
+                text-align: center;
+                font-family: $displayFont;
+                font-size: 1.8rem;
+            }
+            .tags {
+                display: block; 
+                max-width: 80%;
+                margin: 0 auto; 
+                text-align: center;
+                .pill {
+                    display: inline-block; 
+                    background: $headerBG; 
+                    padding: 5px 10px; 
+                    border-radius: 4px;
+                    margin-bottom: .5rem;
+                    margin-right: .5rem;
+                }
+            }
+
         }
     }
+
 }
+
+
