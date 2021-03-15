@@ -12,9 +12,6 @@ router.get('/about', pagesController.aboutPage)
 router.get('/contact', pagesController.contact)
 
 router.get('/blog', blogController.index)
-router.get('/blog/create', blogController.create)
-router.get('/blog', blogController.index)
-router.get('/blog', blogController.index)
 
 
 /**
