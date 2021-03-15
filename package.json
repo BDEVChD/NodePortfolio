@@ -22,7 +22,8 @@
     "node": "^8.4.0",
     "pug": "^3.0.2",
     "react": "^17.0.1",
-    "strip": "^3.0.0"
+    "strip": "^3.0.0",
+    "strip-ansi": "^6.0.0"
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",
