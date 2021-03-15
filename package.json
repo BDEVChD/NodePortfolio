@@ -17,6 +17,7 @@
     "finalhandler": "^1.1.2",
     "jquery": "^3.2.1",
     "lodash": "^4.17.21",
+    "lru-cache": "^6.0.0",
     "mongoose": "^5.12.0",
     "node": "^8.4.0",
     "pug": "^3.0.2",
