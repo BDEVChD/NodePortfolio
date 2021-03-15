@@ -23,7 +23,8 @@
     "pug": "^3.0.2",
     "react": "^17.0.1",
     "strip": "^3.0.0",
-    "strip-ansi": "^6.0.0"
+    "strip-ansi": "^6.0.0",
+    "true-case-path": "^2.2.1"
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",
@@ -33,7 +34,6 @@
     "gulp-watch": "^4.3.11",
     "node-sass": "^4.14.1",
     "npm": "^7.6.3",
-    "true-case-path": "^2.2.1",
     "webpack": "^5.24.4"
   },
   "engines": {
