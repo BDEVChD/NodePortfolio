@@ -23,8 +23,9 @@
     "node": "^8.4.0",
     "node-sass": "^4.5.3",
     "pug": "^3.0.2",
-    "react": "^17.0.1"
-   
+    "react": "^17.0.1",
+    "strip": "^3.0.0",
+    "true-case-path": "^2.2.1"
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",
