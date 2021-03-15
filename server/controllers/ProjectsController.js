@@ -37,8 +37,11 @@ ProjectsController.index = (req, res) => {
     }
 ]
 
+var testingVar = process.env.DB_USERNAME
+
     res.render('projects/index', {
-        projects: projects
+        projects: projects, 
+        testingVar: testingVar
     })
 }
 
