@@ -4,6 +4,7 @@ const autoprefixer = require('gulp-autoprefixer')
 // const concat = require('gulp-concat')
 // const babel = require('gulp-babel')
 const watch = require('gulp-watch')
+const fsevents = require('fsevents');
 const browserSync = require('browser-sync')
 const reload = browserSync.reload
 var exec = require('child_process').exec;
