@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",
-    "fsevents": "^1.2.9",
+    "fsevents": "^2.3.2",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-sass": "^4.1.0",
